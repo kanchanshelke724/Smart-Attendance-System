@@ -1,8 +1,8 @@
-#Smart Attendance System
+#**Smart Attendance System**
 
 This project is a Smart Attendance System that utilizes Python and OpenCV to automate the process of attendance marking. The system captures images of individuals using a camera, extracts features, and compares them with pre-stored images in the database to verify identities and mark attendance.
 
-Features
+**Features**
 
 Collect Face Datasets: Capture face images using a camera for training.
 
@@ -12,7 +12,7 @@ Automated Attendance Marking: Recognize faces in real-time and mark attendance a
 
 Web-Based Database Management: Use a Flask-based web interface to view and manage attendance records.
 
-Technologies Used
+**Technologies Used**
 
 OpenCV: For real-time face detection and recognition.
 
@@ -26,9 +26,9 @@ NumPy: For numerical operations.
 
 scikit-image: For image preprocessing.
 
-Setup and Installation
+**Setup and Installation**
 
-Prerequisites
+Prerequisites:
 
 Ensure you have Python 3.7 or higher installed on your system.
 
@@ -36,7 +36,7 @@ Install the required Python packages using the following command:
 
 pip install -r requirements.txt
 
-Required Libraries
+**Required Libraries**
 
 dlib==19.17.0
 
@@ -50,7 +50,7 @@ opencv-python==4.5.4.58
 
 flask
 
-Usage
+**Usage**
 
 Step 1: Collect Face Dataset
 
@@ -84,7 +84,7 @@ python app.py
 
 Access the web interface at http://localhost:5000 to check and manage attendance records.
 
-Project Structure:
+**Project Structure**
 
 Smart_Attendance_System/
 │
@@ -99,7 +99,7 @@ Smart_Attendance_System/
 ├── templates/                           # HTML templates for Flask app.
 └── static/                              # Static assets like CSS files for the web app.
 
-Screenshots:
+**Screenshots**
 
 ![Screenshot 2024-12-29 215338](https://github.com/user-attachments/assets/8591cc5d-58cc-4d5e-97bb-7d6b789b2ec1)
 
