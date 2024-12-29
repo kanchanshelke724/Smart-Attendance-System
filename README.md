@@ -84,20 +84,6 @@ python app.py
 
 Access the web interface at http://localhost:5000 to check and manage attendance records.
 
-**Project Structure**
-
-Smart_Attendance_System/
-│
-├── get_faces_from_camera_tkinter.py     # Script to collect face datasets.
-├── features_extraction_to_csv.py        # Script to extract facial features.
-├── attendance_taker.py                  # Script to recognize faces and mark attendance.
-├── app.py                               # Flask app for database management.
-├── requirements.txt                     # List of required libraries.
-├── datasets/                            # Directory to store collected face images.
-├── features/                            # Directory to store extracted features.
-├── database/                            # Directory to store attendance records.
-├── templates/                           # HTML templates for Flask app.
-└── static/                              # Static assets like CSS files for the web app.
 
 **Screenshots**
 
